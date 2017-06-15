@@ -1,0 +1,27 @@
+{
+    "name": "test-react-docgen",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "doc": "react-doxygen.cmd -e js -o html test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/turunco/test-react-docgen.git"
+    },
+    "author": "turunco",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/turunco/test-react-docgen/issues"
+    },
+    "homepage": "https://github.com/turunco/test-react-docgen#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "react-docgen": "^2.16.0",
+        "react-docgen-markdown-renderer": "^1.0.1",
+        "react-doxygen": "0.0.10",
+        "react-html-document": "^3.1.0"
+    }
+}
